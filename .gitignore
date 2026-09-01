@@ -1,0 +1,23 @@
+# Blender backup / autosave
+*.blend1
+*.blend2
+*.blend3
+*.blend@
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Render caches / temporary outputs
+__pycache__/
+.cache/
+
+# Large local working files that should not accidentally enter git
+working/
+cache/
+renders/tmp/
+
+# Keep final .blend files trackable intentionally.
+# For large .blend / texture files, prefer Git LFS instead of ignoring them.
